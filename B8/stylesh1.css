@@ -1,0 +1,29 @@
+p {
+    color: #FFFFFF;
+  } 
+  h1{
+    background-color: yellow;
+text-align: center;}
+h3{
+    font-size: 16pt;
+    color: #FF0000;
+}
+ol{
+    border-style: dashed;
+    border-width: 4px;
+    border-color: blue;
+}
+img{width: 30%;}
+a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover { color: green;
+    text-decoration: underline;
+  }
+  
+
