@@ -1,0 +1,46 @@
+.container{
+    width: 80%;
+    font-family: sans-serif;
+    margin: 0 auto;
+   
+}
+.trang{
+        display: flex;
+    justify-content: space-evenly;
+}
+.trangp{
+     width: 50%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 3px;
+    height: 390px;
+   
+}
+.trangp img{
+    width: 100%;
+}
+.trangp a{
+     text-decoration: none;
+     font-size: 50px;
+     color: #000;
+}
+.trangt{
+    width: 30%; 
+}
+.doc{
+   
+    height: 140px;
+    display: flex;
+  
+}
+.docT img{
+ width: 100%;
+}
+.docPc{
+ width: 55%;
+  margin-left: 20px;
+}
+.docPc a{
+    text-decoration: none;
+    font-size: 24px;
+    color: #000;
+}
