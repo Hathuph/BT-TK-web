@@ -1,0 +1,30 @@
+
+
+.trang{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 60%;
+    max-width: max-content;
+    margin: 0 auto;
+}
+
+h2{
+    color: #934242;
+}
+.container{
+   
+    display: flex;
+}
+
+.anh img{
+    background-color: rgb(255, 255, 255);
+    width: 200px;
+    border: 2px solid rgb(160, 160, 160);
+    padding: 10px;
+    margin: 10px;
+  }
+  a{
+    text-decoration: none;
+  }
+ul li{
+    list-style-image: url('ico_arrow.gif');
+}
