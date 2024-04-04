@@ -1,0 +1,82 @@
+.trang{
+    width: 90%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+    height: 1000px;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: #c22b1a;
+    overflow: hidden;
+    width: 90%;
+    position: fixed;
+    top:2%;
+    height: 20px;
+   
+}
+ul li{
+    float: left;
+    border-right:1px solid #fd0000 ;
+}
+ul li:last-child{
+    border-right:none ;
+    float: right;
+}
+ul li a{
+    text-decoration: none;
+    padding: 14px 16px;
+    text-align: center;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+ul li a:hover{
+    background-color: rgb(243, 147, 147);
+    color: #131313;
+}
+.trong{
+    display: flex;
+    margin-top: 50px;
+    width: 100%;
+    justify-content: space-evenly;
+
+}
+.to{
+    width:550px;
+}
+
+.to .to1 img{ 
+    width: 550px;
+
+}
+
+.trai{
+    width: 180px;
+}
+.metan .me1 img{
+    width: 180px;
+
+}
+.img img{
+    width:250px;
+}
+.me2 a{
+    text-decoration: none;
+    color: #343434;
+    font-size: 15px;
+}
+.me2 a:hover{
+    
+    color: #e74606;
+}
+.m2 a{
+    text-decoration: none;
+    color: #343434;
+    font-size: 30px;
+    
+}
+.m2 a:hover{
+    color: #e74606;
+}
