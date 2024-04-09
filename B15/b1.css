@@ -1,0 +1,63 @@
+.cha{
+    width: 100%;
+    height: 270px;
+    margin: auto;
+    background-color: rgb(47, 11, 81);
+    
+}
+.ha{ 
+    font-family: Arial;
+    font-size: 30px;
+    margin-left: 25px;
+    color: #ffffff;
+}
+.trang{
+    width: 100%;
+    height: 270px;
+    display: flex;
+   justify-content: space-evenly;
+}
+.bo, .lop1, .lop2, .lop3{
+    width: 180px;
+    height: 180px;
+}
+.bo{
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    top: 18px;
+    left: 8px;
+}
+.bo .lop1{
+    top: 0;
+    left: 0;
+    position: absolute;
+    transition: 0.4s;
+}
+.bo:hover .lop1{
+    transform: scale(1.2);
+}
+.bo .lop2{
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+    transition: 0.4s;
+}
+.bo:hover .lop2{
+    opacity: 0.4;
+    transform: scale(1.2);
+}
+.bo .lop3{
+    position: absolute;
+    top: 70px;
+    left: 44px;
+    color: white;
+    font-size: 30px;
+    opacity: 0;
+    transition: 0.4s;
+}
+.bo:hover .lop3{
+    opacity: 1;
+}

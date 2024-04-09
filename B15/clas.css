@@ -1,0 +1,63 @@
+.bo, .lop1, .lop2, .lop3{
+    width: 200px;
+    height: 200px;
+top: 2%;
+}
+.bo{
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.bo .lop1{
+    top: 0;
+    left: 0;
+    position: absolute;
+    transition: 0.4s;
+}
+.bo:hover .lop1{
+    transform: scale(1.2);
+}
+.bo .lop2{
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+    transition: 0.4s;
+}
+.bo:hover .lop2{
+    opacity: 0.4;
+    transform: scale(1.2);
+}
+.bo .lop3{
+    position: absolute;
+    top: 90px;
+    left: 55px;
+    color: white;
+    font-size: 30px;
+    opacity: 0;
+    transition: 0.4s;
+}
+.bo:hover .lop3{
+    opacity: 1;
+}
+a.chu{
+    position: relative;
+    font-family: segoe ui;
+    text-decoration: none;
+    font-size: 20px;
+}
+a.chu:after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0%;
+    height: 2px;
+    background-color: darkorange;
+    transition: 0.4s;
+}
+a.chu:hover:after{
+    width: 100%;
+    left: 0;
+}
