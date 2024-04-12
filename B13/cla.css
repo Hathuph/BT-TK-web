@@ -1,0 +1,36 @@
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(66, 66, 66);
+    overflow: hidden;
+    width: 500px;
+    position: fixed;
+    top:0;
+}
+ul li{
+    float: left;
+    border-right:1px solid #a5a5a5 ;
+}
+ul li:last-child{
+    border-right:none ;
+    float: right;
+}
+ul li a{
+    text-decoration: none;
+    padding: 14px 16px;
+    text-align: center;
+    color: #ffffff;
+}
+ul li a.active{
+    background-color: #00b256;
+}
+body{
+    margin: 0;
+}
+div{
+    margin-left: 1%;
+    padding: 2px 16px ;
+    height: 1000px;
+    width: 700px;
+}
