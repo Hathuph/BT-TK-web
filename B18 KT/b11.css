@@ -1,0 +1,139 @@
+.chung{
+    width: 90%;
+    height: 2000px;
+    margin: auto;
+}
+.chu{
+    width: 999px;
+    height: 500px;
+    margin: auto;
+    background: #ff151516;
+    border-radius: 20px;
+}
+.dau{
+    width: 900px;
+    margin: auto;
+    display: flex;
+}
+.dau ul{
+    list-style: none;
+    overflow: hidden;
+    width:200px;
+    height: 30px;
+    top:10px;
+    font-size: 20px;
+    
+}
+.dau ul{
+    margin-top: 10px;
+
+}
+.dau ul li a{
+    margin: auto;
+    text-decoration: none; 
+    padding: 0 0;
+    text-align: center;
+    color: #950303;
+}
+.dau ul.lu{
+    list-style: none;
+    overflow: hidden;
+    width:950px;
+    height: 30px;
+    top:20px;
+    
+    font-family: Arial;
+    font-size: 10px;
+    
+}
+.dau ul.lu li{
+    float: left;
+}
+.dau ul.lu li{
+    margin-top: 10px;
+   margin-left: 10px;
+}
+.dau ul.lu li a{
+    margin: auto;
+    text-decoration: none; 
+    padding: 17px 21px;
+    text-align: center;
+    color: #800000;
+}
+.dau  ul.lu li:last-child{
+    border-right:none ;
+    float: right;
+}
+.dau ul li a.sing{
+    background-color: rgba(129, 14, 14, 0.747);
+    color: rgb(255, 255, 255);
+}
+.dau ul.lu li a.sing:hover{  
+    color: #5a1717; 
+    background-color: #ff5656;
+}
+.dau ul.lu li a:hover{  
+    color: #ff0000; 
+}
+.dau ul li a.active{
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.dau ul li a:hover{  
+    color: #ff5656; 
+}
+hr{
+    width: 900px;
+    margin: auto;
+}
+.giua {
+    width: 900px;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+.giua .ing1 p{
+    font-size: 12px;
+    font-family: Arial;
+}
+.giua .ing1 p.pi{
+    font-family: "Saira Stencil One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.giua .ing1 img{
+    width: 150px;
+    margin-top: 30px;
+}
+.giua .ing1 img.a5{
+    width: 200px;
+}
+.giua .anh5{
+    background: #fffffff8;
+    width: 250px;
+    margin-top: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.giua .anh5 .ing1{
+    margin-left: 23px;
+    width: 200px;
+    
+}
+.giua .ing1 p.pa{
+    font-family: "Saira Stencil One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+.giua .anh5 p.pi{
+    font-size: 20px;
+}
+.cuoi{
+    width: 999px;
+    height: 220px;
+    background: #5a1717;
+    margin: auto;
+
+}
